@@ -31,9 +31,9 @@ use String::Formatter method_stringf => {
         s => sub { $_[0]->artistsort },
         S => sub { $_[0]->albumartistsort },
         T => sub { $_[0]->musicbrainz_trackid },
-	I => sub { $_[0]->musicbrainz_albumartistid },
-	B => sub { $_[0]->musicbrainz_albumid },
-	E => sub { $_[0]->musicbrainz_artistid },
+        I => sub { $_[0]->musicbrainz_albumartistid },
+        B => sub { $_[0]->musicbrainz_albumid },
+        E => sub { $_[0]->musicbrainz_artistid },
     },
 };
 
